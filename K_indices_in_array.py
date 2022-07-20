@@ -7,6 +7,7 @@ class Solution(object):
                     result.append(i)
         res=list(set(result))
         print(res)
+        res.sort()
         return res
         """
         :type nums: List[int]
